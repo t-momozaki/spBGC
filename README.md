@@ -5,4 +5,4 @@ This repository provides the R code implementing the Markov Chain Monte Carlo fo
 Momozaki, T., Nakagawa, T., Sugasawa, S., and Solvang, K. H. (2023). Semiparametric Copula estimation for spatially correlated multivatiate mixed outcomes. 
 
 The repository includes the following files.
-- 
+- aaa
