@@ -134,9 +134,9 @@ spBGC <- function(data, SP, CF=function(dist.mat, phi){ exp(-dist.mat/phi) },
     
     ## update latent variable ----------
     for (i in 1:n) {
-      bound <- suppressWarnings(sapply(1:p, function(j){
-        lb<-(max( Z[ which((Rank_data[i,j]-1)==Rank_data[,j]),j],na.rm=TRUE))
-        ub<-(min( Z[ which((Rank_data[i,j]+1)==Rank_data[,j]),j],na.rm=TRUE))
+      bound <- (sapply(1:p, function(j){
+        lb <- suppressWarnings(max( Z[ which((Rank_data[i,j]-1)==Rank_data[,j]),j],na.rm=TRUE))
+        ub <- suppressWarnings(min( Z[ which((Rank_data[i,j]+1)==Rank_data[,j]),j],na.rm=TRUE))
         matrix(c(lb,ub),nrow=2)
       }))
       Di <- Dependence[[i]][i!=Dependence[[i]]]
