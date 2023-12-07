@@ -9,3 +9,4 @@ Momozaki, T., Nakagawa, T., Sugasawa, S., and Solvang, K. H. (2023). Semiparamet
 
 The repository includes the following files.
 - `spBGC-function.R`: Implementation of Markov Chain Monte Carlo to generate correlation matrixs among spatially correlated mixed outcomes
+- `Example-spBGC.R`: One-shot simulation study for spatial Bayesian Gaussian Copula
