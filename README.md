@@ -5,7 +5,7 @@ spBGC (Spatial Bayesian Gaussian Copula): Supporting information for "Semiparame
 
 This repository provides the R code implementing the Markov Chain Monte Carlo for a semiparametric Bayesian inference of the dependence structure among spatially correlated mixed outcomes, as proposed by the following paper.
 
-Momozaki, T., Nakagawa, T., Sugasawa, S., and Solvang, K. H. (2023). Semiparametric Copula estimation for spatially correlated multivatiate mixed outcomes. 
+Momozaki, T., Nakagawa, T., Sugasawa, S., and Solvang, K. H. (2023). Semiparametric Copula estimation for spatially correlated multivatiate mixed outcomes. http://arxiv.org/abs/2312.12710 
 
 The repository includes the following files.
 - `spBGC-function.R`: Implementation of Markov Chain Monte Carlo to generate correlation matrixs among spatially correlated mixed outcomes
